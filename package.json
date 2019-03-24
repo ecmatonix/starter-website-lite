@@ -1,0 +1,25 @@
+{
+  "name": "starter-website-lite",
+  "version": "0.0.1",
+  "description": "Starting static website template with browser-sync support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecmatonix/starter-website-lite.git"
+  },
+  "keywords": [
+    "starter-template",
+    "static-website",
+    "cdn",
+    "browser-sync"
+  ],
+  "author": "ecmatonix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecmatonix/starter-website-lite/issues"
+  },
+  "homepage": "https://github.com/ecmatonix/starter-website-lite#readme"
+}
