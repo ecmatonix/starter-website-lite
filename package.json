@@ -1,6 +1,6 @@
 {
   "name": "starter-website-lite",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Starting static website template with browser-sync support.",
   "main": "index.js",
   "scripts": {
