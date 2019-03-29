@@ -20,20 +20,42 @@
   <!-- Styles -->
     <!-- Vendor styles -->
       <!-- Normalize.css -->
-      <link rel="stylesheet" href="./assets/styles/vendor/normalize.css">
+      <link 
+        rel="stylesheet" 
+        href="./assets/styles/vendor/normalize.css">
+      <!-- Mocha -->
+      <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/mocha/6.0.2/mocha.css">
     <!-- Local styles -->
-      <link rel="stylesheet" href="./assets/styles/local/main.css">
+      <link 
+        rel="stylesheet" 
+        href="./assets/styles/local/main.css">
 
   <!-- Scripts -->
     <!-- Vendor scripts -->
       <!-- Polyfills -->
-      <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js"></script>
+      <script 
+        crossorigin="anonymous" 
+        src="https://polyfill.io/v3/polyfill.min.js"></script>
+      <!-- Mocha -->
+      <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/mocha/6.0.2/mocha.js"></script>
+      <!-- Chai -->
+      <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.js"></script>
     <!-- Local scripts -->
+      <!-- Mocha settings -->
+      <script>
+        mocha.setup("bdd");
+      </script>
 
 </head>
 <body>
   <h1>starter-website-lite</h1>
   
+  <!-- Mocha test results -->
+    <div id="mocha"></div>
   <!-- Scripts -->
     <noscript>Your browser does not support JavaScript.</noscript>
     <!-- Vendor scripts -->
@@ -44,5 +66,11 @@
         crossorigin="anonymous"></script>
     <!-- Local scripts -->
       <script src="./assets/scripts/local/main.js"></script>
+      <!-- Mocha test specification -->
+      <script src="./tests/test.js"></script>
+      <!-- Mocha test run -->
+      <script>
+        mocha.run();
+      </script>
 </body>
 </html>
