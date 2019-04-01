@@ -1,7 +1,7 @@
 {
   "name": "starter-website-lite",
-  "version": "0.1.4",
-  "description": "Starting static website template with browser-sync support.",
+  "version": "0.1.5",
+  "description": "Starting static website template to quickly create development environment of a simple test project.",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/gulp",
