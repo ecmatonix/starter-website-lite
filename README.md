@@ -1,5 +1,5 @@
 # starter-website-lite
-Starting static website template to quickly create  development environment of a simple test project.
+Starting static website template to quickly create development environment of a simple test project.
 ## Features
 1. Synchronization between browsers.
 2. Livereload mode.
@@ -17,6 +17,6 @@ Then:
 2. `$ npm install` - install dependencies;
 3. `$ npm run start` - launch Gulp along with Browser-sync.
 
-That's it, now the `./public/index.html` file will open in your browser by default at the address [localhost:3000](localhost:3000).
+That's it, now the `./public/index.html` file will open in your browser by default at the address [http://localhost:3000](http://localhost:3000).
 ## Bugs
 If you find a bug or something does not work, then you can leave your questions or comments on [issues](https://github.com/ecmatonix/starter-website-lite/issues).
