@@ -5,8 +5,8 @@ Starting static website template to quickly create development environment of a 
 2. Livereload mode.
 3. Normalization of browser styles.
 4. Download required polyfills.
-5. jQuery support.
-6. Test support (Mocha and Chai).
+5. jQuery.
+6. Test (Mocha and Chai).
 ## Required dependencies
 To work with a website template on your computer, `Node.js` and `npm` are required.
 ## Getting started
