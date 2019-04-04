@@ -7,6 +7,7 @@ Starting static website template to quickly create development environment of a 
 4. Download required polyfills.
 5. jQuery.
 6. Test (Mocha and Chai).
+7. PWA (Progressive Wep Application).
 ## Required dependencies
 To work with a website template on your computer, `Node.js` and `npm` are required.
 ## Getting started
