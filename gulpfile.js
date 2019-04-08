@@ -11,7 +11,7 @@ function defaultTask(cb) {
     },
     port: 3000,
     online: false,
-    open: "local"
+    open: false
   });
 
   cb();

@@ -16,8 +16,9 @@ Download this zip archive or clone this repository (Git required) to your comput
 Then:
 1. `$ cd starter-website-lite` - go inside the project directory;
 2. `$ npm install` - install dependencies;
-3. `$ npm run start` - launch Gulp along with Browser-sync.
+3. `$ npm run start` - launch Gulp along with Browser-sync;
+4. open the page in the browser at [http://localhost:3000](http://localhost:3000).
 
-That's it, now the `./public/index.html` file will open in your browser by default at the address [http://localhost:3000](http://localhost:3000).
+That's it, now the starting template is ready for work.
 ## Bugs
 If you find a bug or something does not work, then you can leave your questions or comments on [issues](https://github.com/ecmatonix/starter-website-lite/issues).
