@@ -1,5 +1,29 @@
 var CACHE_NAME = "swl-app-cache";
-var urlsToCache = ["/"];
+var urlsToCache = [
+  "/",
+  "/assets/images/favicon/apple-touch-icon.png",
+  "/assets/images/favicon/favicon-32x32.png",
+  "/assets/images/favicon/favicon-16x16.png",
+  "/site.webmanifest",
+  "/assets/images/favicon/safari-pinned-tab.svg",
+  "/assets/images/favicon/favicon.ico",
+  "/assets/images/favicon/mstile-144x144.png",
+  "/assets/images/favicon/mstile-70x70.png",
+  "/assets/images/favicon/mstile-150x150.png",
+  "/assets/images/favicon/mstile-310x150.png",
+  "/assets/images/favicon/mstile-310x310.png",
+  "/browserconfig.xml",
+  "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css",
+  "https://cdnjs.cloudflare.com/ajax/libs/mocha/6.0.2/mocha.css",
+  "/assets/styles/local/main.css",
+  "https://polyfill.io/v3/polyfill.min.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/mocha/6.0.2/mocha.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js",
+  "/assets/scripts/local/main.js",
+  "/tests/test.js",
+  "/sw.js"
+];
 
 self.addEventListener("install", function(event) {
   event.waitUntil(
