@@ -13,29 +13,31 @@ self.addEventListener("install", function(event) {
 self.addEventListener("fetch", function(event) {
   event.respondWith(
     caches.match(event.request).then(function(response) {
-      if (response) {
-        return response;
-      }
-
-      var fetchRequest = event.request.clone();
-
-      return fetch(fetchRequest).then(function(response) {
-        if (
-          !response ||
-          response.status !== 200 ||
-          /browser-sync/.test(response.url)
-        ) {
-          return response;
-        }
-
-        var responseToCache = response.clone();
-
-        caches.open(CACHE_NAME).then(function(cache) {
-          cache.put(event.request, responseToCache);
-        });
-
-        return response;
-      });
+      return response ? response : update(event.request);
     })
   );
 });
+
+function update(request) {
+  var fetchRequest = request.clone();
+
+  return fetch(fetchRequest).then(function(response) {
+    return checkResponse(response) ? response : addToCache(request, response);
+  });
+}
+
+function checkResponse(response) {
+  return (
+    !response || response.status !== 200 || /browser-sync/.test(response.url)
+  );
+}
+
+function addToCache(request, response) {
+  var responseToCache = response.clone();
+
+  caches.open(CACHE_NAME).then(function(cache) {
+    cache.put(request, responseToCache);
+  });
+
+  return response;
+}
