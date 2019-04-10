@@ -1,4 +1,6 @@
-var CACHE_NAME = "swl-app-cache";
+var CACHE_NAME_PREFIX = "swl-app-cache";
+var CACHE_VERSION = "0.1.17";
+var CACHE_NAME = CACHE_NAME_PREFIX + "-" + CACHE_VERSION;
 var urlsToCache = [
   "/",
   "/assets/images/favicon/apple-touch-icon.png",
@@ -30,6 +32,22 @@ self.addEventListener("install", function(event) {
     caches.open(CACHE_NAME).then(function(cache) {
       console.log("Opened cache");
       return cache.addAll(urlsToCache);
+    })
+  );
+});
+
+self.addEventListener("activate", function(event) {
+  var cacheNamesList = [CACHE_NAME];
+
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.map(function(cacheName) {
+          if (cacheNamesList.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
     })
   );
 });
