@@ -1,6 +1,6 @@
 {
   "name": "starter-website-lite",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "description": "Starting static website template to quickly create development environment of a simple test project.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,13 @@
     "starter-template",
     "static-website",
     "cdn",
-    "browser-sync"
+    "browser-sync",
+    "normalize-css",
+    "polyfill-io",
+    "jquery",
+    "mocha",
+    "chai",
+    "progressive-web-app"
   ],
   "author": "ecmatonix",
   "license": "ISC",
