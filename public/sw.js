@@ -1,5 +1,5 @@
 var CACHE_NAME_PREFIX = "swl-app-cache";
-var CACHE_VERSION = "0.1.19";
+var CACHE_VERSION = "0.1.20";
 var CACHE_NAME = CACHE_NAME_PREFIX + "-" + CACHE_VERSION;
 var urlsToCache = [
   "/",
@@ -54,7 +54,14 @@ self.addEventListener("activate", function(event) {
 self.addEventListener("fetch", function(event) {
   event.respondWith(
     caches.match(event.request).then(function(response) {
-      return response ? response : update(event.request);
+      if (response) {
+        return update(event.request).catch(function() {
+          console.log("Get response from cache. URL: " + response.url);
+          return response;
+        });
+      } else {
+        return update(event.request);
+      }
     })
   );
 });
@@ -62,9 +69,14 @@ self.addEventListener("fetch", function(event) {
 function update(request) {
   var fetchRequest = request.clone();
 
-  return fetch(fetchRequest).then(function(response) {
-    return checkResponse(response) ? response : addToCache(request, response);
-  });
+  return fetch(fetchRequest)
+    .then(function(response) {
+      return checkResponse(response) ? response : addToCache(request, response);
+    })
+    .catch(function(err) {
+      console.error(err);
+      throw err;
+    });
 }
 
 function checkResponse(response) {
