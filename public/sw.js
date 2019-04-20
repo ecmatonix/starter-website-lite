@@ -1,5 +1,5 @@
 var CACHE_NAME_PREFIX = "swl-app-cache";
-var CACHE_VERSION = "0.1.20";
+var CACHE_VERSION = "v1";
 var CACHE_NAME = CACHE_NAME_PREFIX + "-" + CACHE_VERSION;
 var urlsToCache = [
   "/",
