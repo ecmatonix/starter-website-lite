@@ -8,6 +8,7 @@ Starting static website template to quickly create development environment of a 
 5. jQuery.
 6. Test (Mocha and Chai).
 7. PWA (Progressive Wep Application).
+8. Convenient work with git-hooks (husky module).
 ## Required dependencies
 To work with a website template on your computer, `Node.js 10.14.1+` and `npm 6.4.1+` are required.
 ## Getting started
