@@ -1,11 +1,17 @@
 {
   "name": "starter-website-lite",
-  "version": "0.1.23",
+  "version": "0.2.0",
   "description": "Starting static website template to quickly create development environment of a simple test project.",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"Husky: pre-commit hook works!\"",
+      "commit-msg": "echo \"Husky: commit-msg hook works!\""
+    }
   },
   "repository": {
     "type": "git",
@@ -31,6 +37,7 @@
   "homepage": "https://github.com/ecmatonix/starter-website-lite#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "husky": "^1.3.1"
   }
 }
