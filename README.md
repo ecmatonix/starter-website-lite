@@ -10,6 +10,7 @@ Starting static website template to quickly create development environment of a 
 7. PWA (Progressive Wep Application).
 8. Convenient work with git-hooks (husky module).
 9. Check commit message ([conventional commit](https://www.conventionalcommits.org) specification).
+10. Automate the process of creating a change log.
 ## Required dependencies
 To work with a website template on your computer, `Node.js 10.14.1+` and `npm 6.4.1+` are required.
 ## Getting started
@@ -26,5 +27,12 @@ That's it, now the starting template is ready for work.
 Checking a commit message is done using the commitlint module. Rules for validation correspond to [conventional commit](https://www.conventionalcommits.org) specification.
 
 [Commitlint.io](https://commitlint.io) (online generator) is used to create and pre-check the text of the commit message.
+## Recommended workflow
+Workflow:
+1. make changes;
+2. commit those changes;
+3. pull all the tags;
+4. `$ npm version [patch|minor|major]` - run the command;
+5. push commits to remote repository.
 ## Bugs
 If you find a bug or something does not work, then you can leave your questions or comments on [issues](https://github.com/ecmatonix/starter-website-lite/issues).
