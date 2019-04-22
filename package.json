@@ -1,6 +1,6 @@
 {
   "name": "starter-website-lite",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Starting static website template to quickly create development environment of a simple test project.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,8 @@
     "mocha",
     "chai",
     "progressive-web-app",
-    "husky"
+    "husky",
+    "commitlint"
   ],
   "author": "ecmatonix",
   "license": "ISC",
