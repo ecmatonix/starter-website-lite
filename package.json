@@ -29,7 +29,8 @@
     "chai",
     "progressive-web-app",
     "husky",
-    "commitlint"
+    "commitlint",
+    "conventional-changelog"
   ],
   "author": "ecmatonix",
   "license": "ISC",
