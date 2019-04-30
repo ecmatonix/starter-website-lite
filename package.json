@@ -6,10 +6,12 @@
   "scripts": {
     "start": "npx gulp",
     "version": "npx conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "lint:html": "npx htmlhint **/*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "husky": {
     "hooks": {
+      "pre-commit": "npm run lint:html",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.config.js'"
     }
   },
@@ -46,6 +48,7 @@
     "browser-sync": "^2.26.3",
     "conventional-changelog-cli": "^2.0.12",
     "gulp": "^4.0.0",
+    "htmlhint": "^0.11.0",
     "husky": "^1.3.1"
   }
 }
