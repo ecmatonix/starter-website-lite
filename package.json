@@ -32,7 +32,8 @@
     "progressive-web-app",
     "husky",
     "commitlint",
-    "conventional-changelog"
+    "conventional-changelog",
+    "htmlhint"
   ],
   "author": {
     "name": "Anton Lykov",
