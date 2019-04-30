@@ -31,8 +31,8 @@ Checking a commit message is done using the commitlint module. Rules for validat
 Workflow:
 1. make changes;
 2. commit those changes;
-3. pull all the tags;
+3. pull all the tags _(optional)_;
 4. `$ npm version [patch|minor|major]` - run the command;
-5. push commits to remote repository.
+5. push commits and tags to remote repository.
 ## Bugs
 If you find a bug or something does not work, then you can leave your questions or comments on [issues](https://github.com/ecmatonix/starter-website-lite/issues).
