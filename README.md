@@ -11,6 +11,7 @@ Starting static website template to quickly create development environment of a 
 8. Convenient work with git-hooks (husky module).
 9. Check commit message ([conventional commit](https://www.conventionalcommits.org) specification).
 10. Automate the process of creating a change log.
+11. Lint HTML code (on demand and in the "pre-commit" hook).
 ## Required dependencies
 To work with a website template on your computer, `Node.js 10.14.1+` and `npm 6.4.1+` are required.
 ## Getting started
@@ -23,6 +24,8 @@ Then:
 4. open the page in the browser at [http://localhost:3000](http://localhost:3000).
 
 That's it, now the starting template is ready for work.
+## HTML Linter
+The HTML linter can be started using the command line (`$ npm run lint:html`). In addition, checking of HTML code is performed in the "pre-commit" hook.
 ## Check commit message
 Checking a commit message is done using the commitlint module. Rules for validation correspond to [conventional commit](https://www.conventionalcommits.org) specification.
 
