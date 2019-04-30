@@ -1,3 +1,18 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/ecmatonix/starter-website-lite/compare/v0.5.0...v1.0.0) (2019-04-30)
+
+
+### Features
+
+* **project:** add MIT license ([87e7328](https://github.com/ecmatonix/starter-website-lite/commit/87e7328)), closes [#16](https://github.com/ecmatonix/starter-website-lite/issues/16)
+
+
+### BREAKING CHANGES
+
+* **project:** add MIT license
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/ecmatonix/starter-website-lite/compare/v0.4.0...v0.5.0) (2019-04-24)
 
