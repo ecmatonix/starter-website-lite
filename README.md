@@ -36,3 +36,5 @@ Workflow:
 5. push commits and tags to remote repository.
 ## Bugs
 If you find a bug or something does not work, then you can leave your questions or comments on [issues](https://github.com/ecmatonix/starter-website-lite/issues).
+## License
+[MIT license](https://github.com/ecmatonix/starter-website-lite/blob/master/LICENSE).

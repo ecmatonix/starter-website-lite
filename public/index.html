@@ -1,3 +1,7 @@
+<!-- 
+  Copyright (c) 2019 Anton Lykov
+  Licensed under MIT (https://github.com/ecmatonix/starter-website-lite/blob/master/LICENSE)
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,8 +104,26 @@
 
 </head>
 <body>
-  <h1>starter-website-lite</h1>
-  
+  <header>
+    <h1 class="project-name">starter-website-lite</h1>
+  </header>
+
+  <footer>
+    <div class="license">
+      <p>Copyright (c) 2019 Anton Lykov</p>
+      <style>
+        .link-to-license::after {
+          content: "https://github.com/ecmatonix/starter-website-lite/blob/master/LICENSE";
+        }
+      </style>
+      <p>
+        Licensed under MIT (<a 
+          class="link-to-license"
+          href="https://github.com/ecmatonix/starter-website-lite/blob/master/LICENSE"></a>)
+      </p>
+    </div>
+  </footer>
+    
   <!-- Mocha test results -->
     <div id="mocha"></div>
   <!-- Scripts -->

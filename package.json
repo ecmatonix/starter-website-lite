@@ -32,8 +32,11 @@
     "commitlint",
     "conventional-changelog"
   ],
-  "author": "ecmatonix",
-  "license": "ISC",
+  "author": {
+    "name": "Anton Lykov",
+    "email": "ecmatonix@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ecmatonix/starter-website-lite/issues"
   },
