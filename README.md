@@ -25,9 +25,9 @@ Then:
 4. open the page in the browser at [http://localhost:3000](http://localhost:3000).
 
 That's it, now the starting template is ready for work.
-## HTML Linter
+## HTML linter
 The HTML linter can be started using the command line (`$ npm run lint:html`). In addition, checking of HTML code is performed in the "pre-commit" hook.
-## CSS Linter
+## CSS linter
 The CSS linter can be started using the command line (`$ npm run lint:css`). In addition, checking of HTML code is performed in the "pre-commit" hook.
 ## Check commit message
 Checking a commit message is done using the commitlint module. Rules for validation correspond to [conventional commit](https://www.conventionalcommits.org) specification.
