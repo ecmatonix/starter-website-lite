@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/ecmatonix/starter-website-lite/compare/v1.1.0...v1.1.1) (2019-05-01)
+
+
+### Bug Fixes
+
+* **readme:** modify item about HTML linter in feature list ([90670ff](https://github.com/ecmatonix/starter-website-lite/commit/90670ff)), closes [#17](https://github.com/ecmatonix/starter-website-lite/issues/17)
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.0.0...v1.1.0) (2019-04-30)
 
