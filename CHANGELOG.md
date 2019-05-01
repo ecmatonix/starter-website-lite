@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.1.1...v1.2.0) (2019-05-01)
+
+
+### Features
+
+* **project:** add CSS linter ([4dc3073](https://github.com/ecmatonix/starter-website-lite/commit/4dc3073)), closes [#10](https://github.com/ecmatonix/starter-website-lite/issues/10)
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/ecmatonix/starter-website-lite/compare/v1.1.0...v1.1.1) (2019-05-01)
 
