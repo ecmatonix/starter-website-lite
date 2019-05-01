@@ -37,7 +37,8 @@
     "husky",
     "commitlint",
     "conventional-changelog",
-    "htmlhint"
+    "htmlhint",
+    "stylelint"
   ],
   "author": {
     "name": "Anton Lykov",
