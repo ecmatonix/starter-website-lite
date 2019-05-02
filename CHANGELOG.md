@@ -1,3 +1,13 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.2.0...v1.3.0) (2019-05-02)
+
+
+### Features
+
+* **project:** add JS linter ([75ad4ee](https://github.com/ecmatonix/starter-website-lite/commit/75ad4ee)), closes [#11](https://github.com/ecmatonix/starter-website-lite/issues/11)
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.1.1...v1.2.0) (2019-05-01)
 
