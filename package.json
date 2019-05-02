@@ -40,7 +40,8 @@
     "commitlint",
     "conventional-changelog",
     "htmlhint",
-    "stylelint"
+    "stylelint",
+    "eslint"
   ],
   "author": {
     "name": "Anton Lykov",
