@@ -8,11 +8,13 @@
     "version": "npx conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint:html": "npx htmlhint **/*.html",
     "lint:css": "npx stylelint \"**/*.css\" \"**/*.html\"",
+    "lint:js": "npx eslint --ext .html,.js \"**/*.html\" \"**/*.js\"",
+    "eslint-check": "npx eslint --print-config . | npx eslint-config-prettier-check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint:html && npm run lint:css",
+      "pre-commit": "npm run lint:html && npm run lint:css && npm run lint:js",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.config.js'"
     }
   },
@@ -53,6 +55,9 @@
     "@commitlint/cli": "^7.5.2",
     "browser-sync": "^2.26.3",
     "conventional-changelog-cli": "^2.0.12",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-html": "^5.0.3",
     "gulp": "^4.0.0",
     "htmlhint": "^0.11.0",
     "husky": "^1.3.1",
