@@ -27,11 +27,21 @@ Then:
 
 That's it, now the starting template is ready for work.
 ## HTML linter
-The HTML linter can be started using the command line (`$ npm run lint:html`). In addition, checking of HTML code is performed in the "pre-commit" hook.
+Command line:
+- `$ npm run lint:html` - launch HTML linter.
+
+In addition, checking of HTML code is performed in the "pre-commit" hook.
 ## CSS linter
-The CSS linter can be started using the command line (`$ npm run lint:css`). In addition, checking of HTML code is performed in the "pre-commit" hook.
+Command line:
+- `$ npm run lint:css` - launch CSS linter.
+
+In addition, checking of CSS code is performed in the "pre-commit" hook.
 ## JS linter
-The JS linter can be started using the command line (`$ npm run lint:js`). In addition, checking of JS code is performed in the "pre-commit" hook. Also, to check the compatibility of ESLint rules with Priettier, you can run the command (`$ npm run eslint-check`) on the command line.
+Command line:
+- `$ npm run lint:js` - launch JS linter;
+- `$ npm run eslint-check` - check the compatibility of ESLint rules with Priettier.
+
+In addition, checking of JS code is performed in the "pre-commit" hook.
 ## Check commit message
 Checking a commit message is done using the commitlint module. Rules for validation correspond to [conventional commit](https://www.conventionalcommits.org) specification.
 
