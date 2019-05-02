@@ -15,7 +15,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint:html && npm run lint:css && npm run lint:js",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.config.js'"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g \".commitlintrc.js\""
     }
   },
   "stylelint": {
