@@ -13,6 +13,7 @@ Starting static website template to quickly create development environment of a 
 10. Automate the process of creating a change log.
 11. Linting of HTML code (on demand and in the "pre-commit" hook).
 12. Linting of CSS code (on demand and in the "pre-commit" hook).
+13. Linting of JS code (on demand and in the "pre-commit" hook).
 ## Required dependencies
 To work with a website template on your computer, `Node.js 10.14.1+` and `npm 6.4.1+` are required.
 ## Getting started
@@ -29,6 +30,8 @@ That's it, now the starting template is ready for work.
 The HTML linter can be started using the command line (`$ npm run lint:html`). In addition, checking of HTML code is performed in the "pre-commit" hook.
 ## CSS linter
 The CSS linter can be started using the command line (`$ npm run lint:css`). In addition, checking of HTML code is performed in the "pre-commit" hook.
+## JS linter
+The JS linter can be started using the command line (`$ npm run lint:js`). In addition, checking of JS code is performed in the "pre-commit" hook. Also, to check the compatibility of ESLint rules with Priettier, you can run the command (`$ npm run eslint-check`) on the command line.
 ## Check commit message
 Checking a commit message is done using the commitlint module. Rules for validation correspond to [conventional commit](https://www.conventionalcommits.org) specification.
 
