@@ -1,3 +1,13 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.3.0...v1.4.0) (2019-05-03)
+
+
+### Features
+
+* **package.json:** add a command to run all linters ([d01b559](https://github.com/ecmatonix/starter-website-lite/commit/d01b559)), closes [#19](https://github.com/ecmatonix/starter-website-lite/issues/19)
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.2.0...v1.3.0) (2019-05-02)
 
