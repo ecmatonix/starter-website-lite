@@ -1,7 +1,7 @@
 /*!
-  * Copyright (c) 2019 Anton Lykov
-  * Licensed under MIT (https://github.com/ecmatonix/starter-website-lite/blob/master/LICENSE)
-  */
+ * Copyright (c) 2019 Anton Lykov
+ * Licensed under MIT (https://github.com/ecmatonix/starter-website-lite/blob/master/LICENSE)
+ */
 var CACHE_NAME_PREFIX = "swl-app-cache";
 var CACHE_VERSION = "v1";
 var CACHE_NAME = CACHE_NAME_PREFIX + "-" + CACHE_VERSION;
