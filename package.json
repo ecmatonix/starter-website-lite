@@ -51,7 +51,8 @@
     "conventional-changelog",
     "htmlhint",
     "stylelint",
-    "eslint"
+    "eslint",
+    "prettier"
   ],
   "author": {
     "name": "Anton Lykov",
