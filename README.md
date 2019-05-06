@@ -17,6 +17,7 @@ Starting static website template to quickly create development environment of a 
 11. Linting of HTML code (on demand and in the "pre-commit" hook).
 12. Linting of CSS code (on demand and in the "pre-commit" hook).
 13. Linting of JS code (on demand and in the "pre-commit" hook).
+14. Formatting code (on demand and formatting check in the pre-commit hook).
 
 ## Required dependencies
 
@@ -61,6 +62,22 @@ Command line:
 
 - `$ npm run lint:js` - launch JS linter;
 - `$ npm run eslint-check` - check the compatibility of ESLint rules with Priettier.
+
+## Formatter
+
+Command line:
+
+- `$ npm run format` - format all code in files according to a pattern (`**/*.{html,css,js,json,md}`);
+- `$ npm run format:html` - format all code in files according to a pattern (`**/*.html`);
+- `$ npm run format:css` - format all code in files according to a pattern (`**/*.css`);
+- `$ npm run format:js` - format all code in files according to a pattern (`**/*.js`);
+- `$ npm run format:json` - format all code in files according to a pattern (`**/*.json`);
+- `$ npm run format:md` - format all code in files according to a pattern (`**/*.md`);
+- `$ npm run format:file <glob pattern|path to file>` - format the code in the specified file or files (example: `$ npm run format:file "public/index.html"`);
+- `$ npm run format-check` - check if the files (glob pattern: `**/*.{html,css,js,json,md}`) are formatted;
+- `$ npm run format-check-file <glob pattern|path to file>` - check if the file is formatted (example: `$ npm run format-check-file "public/index.html"`);
+
+In addition, the code formatting check is performed in the pre-commit hook.
 
 ## Check commit message
 
