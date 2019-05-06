@@ -40,28 +40,13 @@ That's it, now the starting template is ready for work.
 
 Command line:
 
-- `$ npm run lint` - launch all linters.
-
-In addition, the code check is performed in the pre-commit hook.
-
-### HTML linter
-
-Command line:
-
+- `$ npm run lint` - launch all linters;
 - `$ npm run lint:html` - launch HTML linter.
-
-### CSS linter
-
-Command line:
-
 - `$ npm run lint:css` - launch CSS linter.
-
-### JS linter
-
-Command line:
-
 - `$ npm run lint:js` - launch JS linter;
 - `$ npm run eslint-check` - check the compatibility of ESLint rules with Priettier.
+
+In addition, the code check is performed in the pre-commit hook.
 
 ## Formatter
 
