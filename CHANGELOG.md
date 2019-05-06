@@ -1,3 +1,15 @@
+<a name="1.5.0"></a>
+
+# [1.5.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.4.0...v1.5.0) (2019-05-06)
+
+### Bug Fixes
+
+- **package.json:** add formatting when updating CHANGELOG.md ([b2238a0](https://github.com/ecmatonix/starter-website-lite/commit/b2238a0)), closes [#20](https://github.com/ecmatonix/starter-website-lite/issues/20)
+
+### Features
+
+- **project:** add code formatter ([4b2d6e9](https://github.com/ecmatonix/starter-website-lite/commit/4b2d6e9)), closes [#13](https://github.com/ecmatonix/starter-website-lite/issues/13)
+
 <a name="1.4.0"></a>
 
 # [1.4.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.3.0...v1.4.0) (2019-05-03)
