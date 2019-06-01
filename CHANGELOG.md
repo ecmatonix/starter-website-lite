@@ -1,3 +1,11 @@
+<a name="1.5.1"></a>
+
+## [1.5.1](https://github.com/ecmatonix/starter-website-lite/compare/v1.5.0...v1.5.1) (2019-06-01)
+
+### Bug Fixes
+
+- **packages:** update browser-sync package ([a0eead7](https://github.com/ecmatonix/starter-website-lite/commit/a0eead7)), closes [#23](https://github.com/ecmatonix/starter-website-lite/issues/23)
+
 <a name="1.5.0"></a>
 
 # [1.5.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.4.0...v1.5.0) (2019-05-06)
