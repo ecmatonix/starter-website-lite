@@ -1,3 +1,11 @@
+<a name="1.5.2"></a>
+
+## [1.5.2](https://github.com/ecmatonix/starter-website-lite/compare/v1.5.1...v1.5.2) (2019-06-13)
+
+### Bug Fixes
+
+- **packages:** update node packages ([846879c](https://github.com/ecmatonix/starter-website-lite/commit/846879c)), closes [#22](https://github.com/ecmatonix/starter-website-lite/issues/22)
+
 <a name="1.5.1"></a>
 
 ## [1.5.1](https://github.com/ecmatonix/starter-website-lite/compare/v1.5.0...v1.5.1) (2019-06-01)
