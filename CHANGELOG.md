@@ -1,3 +1,11 @@
+<a name="1.7.0"></a>
+
+# [1.7.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.6.0...v1.7.0) (2019-06-23)
+
+### Features
+
+- **package.json:** add NPM script (push:release) ([8043eec](https://github.com/ecmatonix/starter-website-lite/commit/8043eec))
+
 <a name="1.6.0"></a>
 
 # [1.6.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.5.2...v1.6.0) (2019-06-23)
