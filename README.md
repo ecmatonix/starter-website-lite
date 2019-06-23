@@ -92,7 +92,7 @@ Workflow:
 2. commit those changes;
 3. pull all the tags _(optional)_;
 4. `$ npm version [patch|minor|major]` - run the command;
-5. push commits and tags to remote repository.
+5. push commits and tags to remote repository (`$ npm run push:release`).
 
 ## Bugs
 
