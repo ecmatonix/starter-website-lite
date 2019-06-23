@@ -20,8 +20,13 @@
     "format:file": "npx prettier --write",
     "format-check": "npx prettier --check \"**/*.{html,css,js,json,md}\"",
     "format-check-file": "npx prettier --check",
+    "autoprefix": "npx postcss public/**/*.css --use autoprefixer -r --no-map",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserslist": [
+    "last 2 version",
+    "> 1%"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint && npm run format-check",
@@ -65,6 +70,7 @@
   "homepage": "https://github.com/ecmatonix/starter-website-lite#readme",
   "devDependencies": {
     "@commitlint/cli": "^7.6.1",
+    "autoprefixer": "^9.6.0",
     "browser-sync": "^2.26.7",
     "conventional-changelog-cli": "^2.0.21",
     "eslint": "^5.16.0",
@@ -73,6 +79,7 @@
     "gulp": "^4.0.2",
     "htmlhint": "^0.11.0",
     "husky": "^1.3.1",
+    "postcss-cli": "^6.1.2",
     "prettier": "1.17.0",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0"
