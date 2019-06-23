@@ -1,3 +1,11 @@
+<a name="1.6.0"></a>
+
+# [1.6.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.5.2...v1.6.0) (2019-06-23)
+
+### Features
+
+- **project:** add NPM script (autoprefix) ([fd0e294](https://github.com/ecmatonix/starter-website-lite/commit/fd0e294))
+
 <a name="1.5.2"></a>
 
 ## [1.5.2](https://github.com/ecmatonix/starter-website-lite/compare/v1.5.1...v1.5.2) (2019-06-13)
