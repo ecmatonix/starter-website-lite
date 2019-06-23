@@ -18,6 +18,7 @@ Starting static website template to quickly create development environment of a 
 12. Linting of CSS code (on demand and in the "pre-commit" hook).
 13. Linting of JS code (on demand and in the "pre-commit" hook).
 14. Formatting code (on demand and formatting check in the pre-commit hook).
+15. Add the necessary prefixes for CSS properties.
 
 ## Required dependencies
 
@@ -65,6 +66,17 @@ Command line:
   (example: `$ npm run format-check-file "public/index.html"`);
 
 In addition, the code formatting check is performed in the pre-commit hook.
+
+## Autoprefixer
+
+List of supported browsers (see package.json):
+
+- "last 2 version";
+- "> 1%".
+
+Command line:
+
+- `$ npm run autoprefix` - add the necessary prefixes for CSS properties.
 
 ## Check commit message
 
