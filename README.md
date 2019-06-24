@@ -91,8 +91,12 @@ Workflow:
 1. make changes;
 2. commit those changes;
 3. pull all the tags _(optional)_;
-4. `$ npm version [patch|minor|major]` - run the command;
-5. push commits and tags to remote repository (`$ npm run push:release`).
+4. `$ npm run [release:patch|release:minor|release:major]` - publish release.
+
+Notes:
+
+- if Git is used only locally, it is recommended to use the `$ npm version [patch|minor|major]` command instead of `$ npm run [release:patch|release:minor|release:major]`;
+- `$ npm run push:release` - push commits and tags to remote repository (running as part of NPM scripts: "release:patch", "release:minor", "release:major").
 
 ## Bugs
 
