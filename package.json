@@ -6,7 +6,6 @@
   "scripts": {
     "start": "npx gulp",
     "version": "npx conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && npm run format && git add CHANGELOG.md",
-    "push:release": "git --version && git push origin master && git push origin --tags",
     "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
     "lint:html": "npx htmlhint **/*.html",
     "lint:css": "npx stylelint \"**/*.css\" \"**/*.html\"",
