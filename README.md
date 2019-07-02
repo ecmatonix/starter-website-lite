@@ -96,7 +96,7 @@ Workflow:
 
 ## Bugs
 
-If you find a bug or something does not work, then you can leave your questions or comments on [issues](https://github.com/ecmatonix/starter-website-lite/issues).
+If you find a bug or something does not work, please leave your questions or comments on [issues](https://github.com/ecmatonix/starter-website-lite/issues).
 
 ## License
 
