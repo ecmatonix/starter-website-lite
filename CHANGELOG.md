@@ -1,3 +1,18 @@
+<a name="1.9.0"></a>
+
+# [1.9.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.8.0...v1.9.0) (2019-07-03)
+
+### Features
+
+- **package.json:** modify NPM script (version) ([472a77d](https://github.com/ecmatonix/starter-website-lite/commit/472a77d))
+
+### Reverts
+
+- docs(readme): update the documentation ([099c7c0](https://github.com/ecmatonix/starter-website-lite/commit/099c7c0))
+- docs(readme): update the documentation ([52a8f61](https://github.com/ecmatonix/starter-website-lite/commit/52a8f61))
+- feat(package.json): add NPM script (push:release) ([c20ec1f](https://github.com/ecmatonix/starter-website-lite/commit/c20ec1f))
+- feat(package.json): add NPM scripts for publishing a release ([15cf431](https://github.com/ecmatonix/starter-website-lite/commit/15cf431))
+
 <a name="1.8.0"></a>
 
 # [1.8.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.7.0...v1.8.0) (2019-06-24)
