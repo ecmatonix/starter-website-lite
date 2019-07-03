@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && npm run format && git add CHANGELOG.md",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && prettier --write CHANGELOG.md && git add CHANGELOG.md",
     "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
     "lint:html": "htmlhint **/*.html",
     "lint:css": "stylelint \"**/*.css\" \"**/*.html\"",
