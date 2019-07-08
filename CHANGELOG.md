@@ -1,3 +1,11 @@
+<a name="1.9.1"></a>
+
+## [1.9.1](https://github.com/ecmatonix/starter-website-lite/compare/v1.9.0...v1.9.1) (2019-07-08)
+
+### Bug Fixes
+
+- **package.json:** modify package.json file ([7545b18](https://github.com/ecmatonix/starter-website-lite/commit/7545b18)), closes [#24](https://github.com/ecmatonix/starter-website-lite/issues/24)
+
 <a name="1.9.0"></a>
 
 # [1.9.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.8.0...v1.9.0) (2019-07-03)
