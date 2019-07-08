@@ -2,7 +2,7 @@
   "name": "starter-website-lite",
   "version": "1.9.0",
   "description": "Starting static website template to quickly create development environment of a simple test project.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "gulp",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && prettier --write CHANGELOG.md && git add CHANGELOG.md",
