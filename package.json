@@ -11,7 +11,7 @@
     "lint:css": "stylelint \"**/*.css\" \"**/*.html\"",
     "lint:js": "eslint --ext .html,.js \"**/*.html\" \"**/*.js\"",
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
-    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "format": "prettier --write \"**/*.{html,css,js,json,yml,md}\"",
     "format:html": "prettier --write \"**/*.html\"",
     "format:css": "prettier --write \"**/*.css\"",
     "format:js": "prettier --write \"**/*.js\"",
