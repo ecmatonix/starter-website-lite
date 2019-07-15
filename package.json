@@ -18,7 +18,7 @@
     "format:json": "prettier --write \"**/*.json\"",
     "format:md": "prettier --write \"**/*.md\"",
     "format:file": "prettier --write",
-    "format-check": "prettier --check \"**/*.{html,css,js,json,md}\"",
+    "format-check": "prettier --check \"**/*.{html,css,js,json,yml,md}\"",
     "format-check-file": "prettier --check",
     "autoprefix": "postcss public/**/*.css --use autoprefixer -r --no-map",
     "test": "echo \"Error: no test specified\" && exit 1"
