@@ -53,7 +53,7 @@ In addition, the code check is performed in the pre-commit hook.
 
 Command line:
 
-- `$ npm run format` - format all code in files according to a pattern (`**/*.{html,css,js,json,md}`);
+- `$ npm run format` - format all code in files according to a pattern (`**/*.{html,css,js,json,yml,md}`);
 - `$ npm run format:html` - format all code in files according to a pattern (`**/*.html`);
 - `$ npm run format:css` - format all code in files according to a pattern (`**/*.css`);
 - `$ npm run format:js` - format all code in files according to a pattern (`**/*.js`);
