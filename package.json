@@ -1,6 +1,6 @@
 {
   "name": "starter-website-lite",
-  "version": "1.9.1",
+  "version": "1.10.0",
   "description": "Starting static website template to quickly create development environment of a simple test project.",
   "private": true,
   "scripts": {

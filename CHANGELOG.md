@@ -1,3 +1,11 @@
+<a name="1.10.0"></a>
+
+# [1.10.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.9.1...v1.10.0) (2019-07-15)
+
+### Features
+
+- **github-configs:** set theme jekyll-theme-cayman ([5862fcb](https://github.com/ecmatonix/starter-website-lite/commit/5862fcb))
+
 <a name="1.9.1"></a>
 
 ## [1.9.1](https://github.com/ecmatonix/starter-website-lite/compare/v1.9.0...v1.9.1) (2019-07-08)
