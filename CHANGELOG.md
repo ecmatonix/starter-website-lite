@@ -1,3 +1,11 @@
+<a name="1.12.0"></a>
+
+# [1.12.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.11.0...v1.12.0) (2019-07-15)
+
+### Features
+
+- **package.json:** update the "format-check" script ([f0ead25](https://github.com/ecmatonix/starter-website-lite/commit/f0ead25))
+
 <a name="1.11.0"></a>
 
 # [1.11.0](https://github.com/ecmatonix/starter-website-lite/compare/v1.10.0...v1.11.0) (2019-07-15)
