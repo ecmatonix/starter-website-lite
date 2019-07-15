@@ -61,7 +61,7 @@ Command line:
 - `$ npm run format:md` - format all code in files according to a pattern (`**/*.md`);
 - `$ npm run format:file <glob pattern|path to file>` - format the code in the specified file or files  
   (example: `$ npm run format:file "public/index.html"`);
-- `$ npm run format-check` - check if the files (glob pattern: `**/*.{html,css,js,json,md}`) are formatted;
+- `$ npm run format-check` - check if the files (glob pattern: `**/*.{html,css,js,json,yml,md}`) are formatted;
 - `$ npm run format-check-file <glob pattern|path to file>` - check if the file is formatted  
   (example: `$ npm run format-check-file "public/index.html"`);
 
